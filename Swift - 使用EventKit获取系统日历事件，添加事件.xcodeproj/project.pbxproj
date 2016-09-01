@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A4B11A1D77D2F300F9E6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B1191D77D2F300F9E6A7 /* AppDelegate.swift */; };
+		F5A4B11C1D77D2F300F9E6A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B11B1D77D2F300F9E6A7 /* ViewController.swift */; };
+		F5A4B11F1D77D2F300F9E6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B11D1D77D2F300F9E6A7 /* Main.storyboard */; };
+		F5A4B1211D77D2F300F9E6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B1201D77D2F300F9E6A7 /* Assets.xcassets */; };
+		F5A4B1241D77D2F300F9E6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B1221D77D2F300F9E6A7 /* LaunchScreen.storyboard */; };
+		F5A4B12F1D77D2F300F9E6A7 /* Swift_____EventKit_____________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B12E1D77D2F300F9E6A7 /* Swift_____EventKit_____________Tests.swift */; };
+		F5A4B13A1D77D2F300F9E6A7 /* Swift_____EventKit_____________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B1391D77D2F300F9E6A7 /* Swift_____EventKit_____________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A4B12B1D77D2F300F9E6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A4B10E1D77D2F300F9E6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A4B1151D77D2F300F9E6A7;
+			remoteInfo = "Swift - 使用EventKit获取系统日历事件，添加事件";
+		};
+		F5A4B1361D77D2F300F9E6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A4B10E1D77D2F300F9E6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A4B1151D77D2F300F9E6A7;
+			remoteInfo = "Swift - 使用EventKit获取系统日历事件，添加事件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5A4B1161D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift - 使用EventKit获取系统日历事件，添加事件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A4B1191D77D2F300F9E6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5A4B11B1D77D2F300F9E6A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5A4B11E1D77D2F300F9E6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A4B1201D77D2F300F9E6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5A4B1231D77D2F300F9E6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5A4B1251D77D2F300F9E6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A4B12A1D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - 使用EventKit获取系统日历事件，添加事件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A4B12E1D77D2F300F9E6A7 /* Swift_____EventKit_____________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____EventKit_____________Tests.swift"; sourceTree = "<group>"; };
+		F5A4B1301D77D2F300F9E6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A4B1351D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - 使用EventKit获取系统日历事件，添加事件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A4B1391D77D2F300F9E6A7 /* Swift_____EventKit_____________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____EventKit_____________UITests.swift"; sourceTree = "<group>"; };
+		F5A4B13B1D77D2F300F9E6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A4B1131D77D2F300F9E6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4B1271D77D2F300F9E6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4B1321D77D2F300F9E6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A4B10D1D77D2F300F9E6A7 = {
+			isa = PBXGroup;
+			children = (
+				F5A4B1181D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件 */,
+				F5A4B12D1D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件Tests */,
+				F5A4B1381D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件UITests */,
+				F5A4B1171D77D2F300F9E6A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A4B1171D77D2F300F9E6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4B1161D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件.app */,
+				F5A4B12A1D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件Tests.xctest */,
+				F5A4B1351D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A4B1181D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件 */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4B1191D77D2F300F9E6A7 /* AppDelegate.swift */,
+				F5A4B11B1D77D2F300F9E6A7 /* ViewController.swift */,
+				F5A4B11D1D77D2F300F9E6A7 /* Main.storyboard */,
+				F5A4B1201D77D2F300F9E6A7 /* Assets.xcassets */,
+				F5A4B1221D77D2F300F9E6A7 /* LaunchScreen.storyboard */,
+				F5A4B1251D77D2F300F9E6A7 /* Info.plist */,
+			);
+			path = "Swift - 使用EventKit获取系统日历事件，添加事件";
+			sourceTree = "<group>";
+		};
+		F5A4B12D1D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4B12E1D77D2F300F9E6A7 /* Swift_____EventKit_____________Tests.swift */,
+				F5A4B1301D77D2F300F9E6A7 /* Info.plist */,
+			);
+			path = "Swift - 使用EventKit获取系统日历事件，添加事件Tests";
+			sourceTree = "<group>";
+		};
+		F5A4B1381D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4B1391D77D2F300F9E6A7 /* Swift_____EventKit_____________UITests.swift */,
+				F5A4B13B1D77D2F300F9E6A7 /* Info.plist */,
+			);
+			path = "Swift - 使用EventKit获取系统日历事件，添加事件UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A4B1151D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A4B13E1D77D2F300F9E6A7 /* Build configuration list for PBXNativeTarget "Swift - 使用EventKit获取系统日历事件，添加事件" */;
+			buildPhases = (
+				F5A4B1121D77D2F300F9E6A7 /* Sources */,
+				F5A4B1131D77D2F300F9E6A7 /* Frameworks */,
+				F5A4B1141D77D2F300F9E6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift - 使用EventKit获取系统日历事件，添加事件";
+			productName = "Swift - 使用EventKit获取系统日历事件，添加事件";
+			productReference = F5A4B1161D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A4B1291D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A4B1411D77D2F300F9E6A7 /* Build configuration list for PBXNativeTarget "Swift - 使用EventKit获取系统日历事件，添加事件Tests" */;
+			buildPhases = (
+				F5A4B1261D77D2F300F9E6A7 /* Sources */,
+				F5A4B1271D77D2F300F9E6A7 /* Frameworks */,
+				F5A4B1281D77D2F300F9E6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A4B12C1D77D2F300F9E6A7 /* PBXTargetDependency */,
+			);
+			name = "Swift - 使用EventKit获取系统日历事件，添加事件Tests";
+			productName = "Swift - 使用EventKit获取系统日历事件，添加事件Tests";
+			productReference = F5A4B12A1D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5A4B1341D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A4B1441D77D2F300F9E6A7 /* Build configuration list for PBXNativeTarget "Swift - 使用EventKit获取系统日历事件，添加事件UITests" */;
+			buildPhases = (
+				F5A4B1311D77D2F300F9E6A7 /* Sources */,
+				F5A4B1321D77D2F300F9E6A7 /* Frameworks */,
+				F5A4B1331D77D2F300F9E6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A4B1371D77D2F300F9E6A7 /* PBXTargetDependency */,
+			);
+			name = "Swift - 使用EventKit获取系统日历事件，添加事件UITests";
+			productName = "Swift - 使用EventKit获取系统日历事件，添加事件UITests";
+			productReference = F5A4B1351D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A4B10E1D77D2F300F9E6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "道标朱";
+				TargetAttributes = {
+					F5A4B1151D77D2F300F9E6A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F5A4B1291D77D2F300F9E6A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5A4B1151D77D2F300F9E6A7;
+					};
+					F5A4B1341D77D2F300F9E6A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5A4B1151D77D2F300F9E6A7;
+					};
+				};
+			};
+			buildConfigurationList = F5A4B1111D77D2F300F9E6A7 /* Build configuration list for PBXProject "Swift - 使用EventKit获取系统日历事件，添加事件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A4B10D1D77D2F300F9E6A7;
+			productRefGroup = F5A4B1171D77D2F300F9E6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A4B1151D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件 */,
+				F5A4B1291D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件Tests */,
+				F5A4B1341D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A4B1141D77D2F300F9E6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4B1241D77D2F300F9E6A7 /* LaunchScreen.storyboard in Resources */,
+				F5A4B1211D77D2F300F9E6A7 /* Assets.xcassets in Resources */,
+				F5A4B11F1D77D2F300F9E6A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4B1281D77D2F300F9E6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4B1331D77D2F300F9E6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A4B1121D77D2F300F9E6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4B11C1D77D2F300F9E6A7 /* ViewController.swift in Sources */,
+				F5A4B11A1D77D2F300F9E6A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4B1261D77D2F300F9E6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4B12F1D77D2F300F9E6A7 /* Swift_____EventKit_____________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4B1311D77D2F300F9E6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4B13A1D77D2F300F9E6A7 /* Swift_____EventKit_____________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A4B12C1D77D2F300F9E6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A4B1151D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件 */;
+			targetProxy = F5A4B12B1D77D2F300F9E6A7 /* PBXContainerItemProxy */;
+		};
+		F5A4B1371D77D2F300F9E6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A4B1151D77D2F300F9E6A7 /* Swift - 使用EventKit获取系统日历事件，添加事件 */;
+			targetProxy = F5A4B1361D77D2F300F9E6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A4B11D1D77D2F300F9E6A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A4B11E1D77D2F300F9E6A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A4B1221D77D2F300F9E6A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A4B1231D77D2F300F9E6A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A4B13C1D77D2F300F9E6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5A4B13D1D77D2F300F9E6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A4B13F1D77D2F300F9E6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 使用EventKit获取系统日历事件，添加事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----EventKit-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5A4B1401D77D2F300F9E6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 使用EventKit获取系统日历事件，添加事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----EventKit-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5A4B1421D77D2F300F9E6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - 使用EventKit获取系统日历事件，添加事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----EventKit-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - 使用EventKit获取系统日历事件，添加事件.app/Swift - 使用EventKit获取系统日历事件，添加事件";
+			};
+			name = Debug;
+		};
+		F5A4B1431D77D2F300F9E6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - 使用EventKit获取系统日历事件，添加事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----EventKit-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - 使用EventKit获取系统日历事件，添加事件.app/Swift - 使用EventKit获取系统日历事件，添加事件";
+			};
+			name = Release;
+		};
+		F5A4B1451D77D2F300F9E6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - 使用EventKit获取系统日历事件，添加事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----EventKit-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - 使用EventKit获取系统日历事件，添加事件";
+			};
+			name = Debug;
+		};
+		F5A4B1461D77D2F300F9E6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - 使用EventKit获取系统日历事件，添加事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-----EventKit-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - 使用EventKit获取系统日历事件，添加事件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A4B1111D77D2F300F9E6A7 /* Build configuration list for PBXProject "Swift - 使用EventKit获取系统日历事件，添加事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4B13C1D77D2F300F9E6A7 /* Debug */,
+				F5A4B13D1D77D2F300F9E6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A4B13E1D77D2F300F9E6A7 /* Build configuration list for PBXNativeTarget "Swift - 使用EventKit获取系统日历事件，添加事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4B13F1D77D2F300F9E6A7 /* Debug */,
+				F5A4B1401D77D2F300F9E6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5A4B1411D77D2F300F9E6A7 /* Build configuration list for PBXNativeTarget "Swift - 使用EventKit获取系统日历事件，添加事件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4B1421D77D2F300F9E6A7 /* Debug */,
+				F5A4B1431D77D2F300F9E6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5A4B1441D77D2F300F9E6A7 /* Build configuration list for PBXNativeTarget "Swift - 使用EventKit获取系统日历事件，添加事件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4B1451D77D2F300F9E6A7 /* Debug */,
+				F5A4B1461D77D2F300F9E6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A4B10E1D77D2F300F9E6A7 /* Project object */;
+}
